@@ -1,0 +1,70 @@
+body{width: auto;
+height: auto;
+color: white;
+background-image: url(Rain.jpg);}
+.header{background-color: #03a9f4b8;
+}
+.name{color: white;
+margin-right: 50%;
+margin-left: 35px;
+font-family: cursive;}
+.like{color: white;
+text-decoration: none;
+padding-right: 35px;
+padding-top: 30px;}
+.my{font-family:"Lucida Console", Monaco, monospace;
+text-align: center;
+font-size: 30px;
+padding-top: 100px;
+padding-bottom: 100px;
+overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: blue }
+}
+#aboutme {display: flex;
+background-color: #31a4a9ba;
+}
+#aboutme img{border-radius: 50px;
+margin: 25px;}
+#aboutme p{font-size: 35px;
+color: white;
+text-align: justify;
+margin: 25px;}
+
+#portfolio{margin-bottom: 60px;}
+#portfolio h2{font-size: 50px;
+font-weight: bold;
+text-align: center;
+text-decoration: underline;}
+#portfolio br{color: white;}
+#portfolio img{margin: 20px;}
+
+#contact{padding: 40px;
+background-color: #165e9eb0;}
+#contact h2{text-align: center;
+font-size: 50px;
+text-decoration: underline;}
+#contact input{width: 50%;
+height: 40px;
+margin-left: 25%;
+margin-bottom: 30px;}
+#contact textarea{margin-left: 25%;}
+#contact .button{width: 80px;
+color: white;
+background-color: #2c8a89b3;
+}
